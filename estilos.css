@@ -1,0 +1,197 @@
+/* Selectores */
+body {
+	background-color: #09eea288;
+	color: #000000;
+	font-family: Arial, sans-serif;
+	margin: 20px;
+	padding: 10px;
+}
+
+h1, h2, h3 {
+	margin: 20px;
+	padding: 10px;
+}
+
+a {
+	color: #fffb00;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	margin: 20px;
+	padding: 10px;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 1em;
+}
+
+/* Bordes */
+img {
+	border: 10px solid #d48058;
+	display: block;
+	margin: 20px auto;
+	max-width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	border: 3px solid #000000;
+	padding: 0.5em;
+	text-align: left;
+}
+
+th {
+	background-color: #ffffff;
+	font-weight: bold;
+}
+
+/* Colores */
+header {
+	background-color: #ececec;
+	color: #4792cfaf;
+	padding: 1em;
+}
+
+nav ul li a {
+	color: #1c2206;
+}
+
+nav ul li a:hover {
+	background-color: #cfeeea;
+	color: #000000a1;
+	padding: 0.5em;
+	border-radius: 0.25em;
+}
+
+main section {
+	background-color: #ffffff;
+	border: 5px solid #e62e28;
+	margin: 1em 0;
+	padding: 1em;
+}
+
+/* Box model CSS */
+form label {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+	border: 1px solid #50ff39;
+	padding: 0.5em;
+	width: 100%;
+}
+
+form input[type="submit"] {
+	background-color: #290a0e;
+	border: none;
+	color: #ffffff;
+	padding: 0.5em 1em;
+	text-transform: uppercase;
+}
+
+/* Formato de texto en CSS */
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+p {
+	line-height: 1.5;
+	margin-bottom: 1em;
+}
+
+/* Fuentes en CSS */
+header {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+/* Iconos en CSS */
+.fa {
+	display: inline-block;
+	font-size: 1.5em;
+	margin-right: 0.5em;
+	text-align: center;
+	width: 1.5em;
+}
+
+.fa-envelope::before {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 50px;
+	color: #1900ff;
+}
+
+.fa-phone::before {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 50px;
+	color: #000000e8;
+}
+
+.fa-globe::before {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 50px;
+	color: #000000;
+}
+
+.fa-user::before {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 50px;
+	color: #000000;
+}
+
+/* Display en CSS */
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 20px auto;
+	max-width: 960px;
+	padding: 1em;
+}
+
+@media (min-width: 768px) {
+	.container {
+		flex-direction: row;
+	}
+	
+	header {
+		flex-basis: 20%;
+    }
+}
+
+  
+  
+  
